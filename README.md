@@ -1,6 +1,6 @@
 # BizCardX-Extracting-Business-Card-Data-with-OCR
 In Business development, while attending networking events, I get a lot of business cards from contacts/potential prospects. This solution can save a lot of time in extracting all those data in a digitalised data format
-<img src="https://favim.com/pd/s5/orig/74/electronic-business-cards-Favim.com-771872.jpg">
+
 ## EasyOCR: Effortless Optical Character Recognition for Python Developers
 EasyOCR, as the name implies, is a Python package specifically designed for computer vision developers to seamlessly perform Optical Character Recognition (OCR) tasks. It enables effortless text extraction from images and scanned documents. In my project, I employed EasyOCR to extract text from business cards.
 ### EasyOCR: A Straightforward Approach to OCR
@@ -23,3 +23,17 @@ BizCardX utilizes various libraries to achieve its functionality:
  * EasyOCR: For extracting text from images
 ## Workflow
 To get started with BizCardX Data Extraction, follow these steps:
+* Install the required libraries using pip install commands:
+  - pip install [Name of the library]
+* Execute the "main.py" script using the streamlit run command
+  - streamlit run main.py
+* A webpage will open in your browser. The app has three menu options: **HOME, UPLOAD & EXTRACT, MODIFY**.
+  - **HOME:** Provides an overview of the project
+  - **UPLOAD & EXTRACT:** Allows users to upload business card images and extract information
+  - **MODIFY:** Enables users to modify and manage extracted data
+* NOW, Upload a business card image.Once you do this, EasyOCR will extract the text from the uploaded image.
+* The extracted text is then automatically processed and classified into various fields, such as **_company name, cardholder name, designation, mobile number, email address, website URL, area, city, state, and pin code_.**
+* The classified data is displayed on the screen and can be edited by the user if necessary.
+* Clicking the **"Upload to Database"** button stores the classified data in the MySQL database.
+* The **"MODIFY"** menu allows users to access, **read, update, and delete** the uploaded data in the SQL database.
+
