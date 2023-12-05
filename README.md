@@ -24,9 +24,9 @@ BizCardX utilizes various libraries to achieve its functionality:
 ## Workflow
 To get started with BizCardX Data Extraction, follow these steps:
 * Install the required libraries using pip install commands:
-  - pip install [Name of the library]
+  - **pip install [Name of the library]**
 * Execute the "main.py" script using the streamlit run command
-  - streamlit run main.py
+  - **streamlit run main.py**
 * A webpage will open in your browser. The app has three menu options: **HOME, UPLOAD & EXTRACT, MODIFY**.
   - **HOME:** Provides an overview of the project
   - **UPLOAD & EXTRACT:** Allows users to upload business card images and extract information
