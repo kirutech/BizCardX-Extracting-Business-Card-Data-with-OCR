@@ -1,5 +1,6 @@
 # BizCardX-Extracting-Business-Card-Data-with-OCR
 In Business development, while attending networking events, I get a lot of business cards from contacts/potential prospects. This solution can save a lot of time in extracting all those data in a digitalised data format
+<img src="https://favim.com/pd/s5/orig/74/electronic-business-cards-Favim.com-771872.jpg">
 ## EasyOCR: Effortless Optical Character Recognition for Python Developers
 EasyOCR, as the name implies, is a Python package specifically designed for computer vision developers to seamlessly perform Optical Character Recognition (OCR) tasks. It enables effortless text extraction from images and scanned documents. In my project, I employed EasyOCR to extract text from business cards.
 ### EasyOCR: A Straightforward Approach to OCR
@@ -16,7 +17,9 @@ The BizCardX application features a simple and intuitive user interface that gui
 To experience BizCardX in action, visit the demo video by clicking here: [link to demo video]
 ## Technologies Employed
 BizCardX utilizes various libraries to achieve its functionality:
- •	Pandas: For creating a DataFrame to store the scraped data
- •	mysql.connector: For storing and retrieving data from the SQL database
- •	Streamlit: For building the graphical user interface
- •	EasyOCR: For extracting text from images
+ * Pandas: For creating a DataFrame to store the scraped data
+ * mysql.connector: For storing and retrieving data from the SQL database
+ * Streamlit: For building the graphical user interface
+ * EasyOCR: For extracting text from images
+## Workflow
+To get started with BizCardX Data Extraction, follow these steps:
