@@ -14,7 +14,7 @@ BizCardX is a user-friendly tool that leverages OCR technology to extract inform
 ### BizCardX: A Simple and Intuitive Interface
 The BizCardX application features a simple and intuitive user interface that guides users through the entire process, from uploading business card images to extracting information. The extracted information is presented in a clean and organized manner, allowing users to add it to the database with a single click. The data stored in the database can be easily read, updated, and deleted as per user requirements.
 ## Project Demonstration
-To experience BizCardX in action, visit the demo video by clicking here: [link to demo video]
+To experience BizCardX in action, visit my demo video by clicking here: [link to demo video](https://www.linkedin.com/feed/update/urn:li:ugcPost:7138185562414317568/)
 ## Technologies Employed
 BizCardX utilizes various libraries to achieve its functionality:
  * Pandas: For creating a DataFrame to store the scraped data
